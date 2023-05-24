@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background: #d8c3c3;
+            display: flex;
+            justify-content: center;
+            
+
+        }
+
+        .container {
+            background-color: #c4ebf9;
+            height: 500px;
+            width: 600px;
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            padding: 15px 10px;
+        }
+
+        .header {
+            height: 80px;
+            background-color: #02bfb1;
+            width: 600px;
+
+        }
+
+        .sub-container {
+            display: flex;
+            height: 400px;
+            background-color: transparent;
+            gap: 20px;
+        }
+
+        .left {
+            background-color: #6edb69;
+            flex: 0.3;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+        }
+
+        .right {
+            background-color: #fbb04c;
+            flex: 0.7;
+            display: flex;
+            justify-content: space-around;
+            align-items: flex-end;
+        }
+
+        .image {
+            height: 100px;
+            width: 100px;
+            background-color: #fcd24a;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+        }
+        h4{
+            color: #fff;
+            font-size: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">Header</div>
+        <div class="sub-container">
+            <div class="left">
+                <h4 style="background-color: transparent">Aside</h4>
+            </div>
+            <div class="right">
+                <div class="image">
+                    <h4 style="background-color: transparent;">Image</h4>
+                </div>
+                <div class="image">
+                    <h4 style="background-color: transparent;">Image</h4>
+                </div>
+                <div class="image">
+                    <h4 style="background-color: transparent;">Image</h4>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
