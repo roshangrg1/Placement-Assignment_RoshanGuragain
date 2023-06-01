@@ -1,0 +1,68 @@
+.App{
+  background-color: #FBEAEB;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  
+}
+.container{
+  margin-top: 100px;
+  background: #2F3C7E;
+  height: 400px;
+  width: 500px;
+   
+  /* display: flex; */
+}
+.container:hover{
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  border-radius: 10px;
+}
+
+.input-text{
+  padding: 10px;
+  border-radius: 8px;
+  border: none;
+}
+
+li{
+  color: #2F3C7E;
+  display: flex;
+  justify-content: space-between;
+  background-color: #FBEAEB;
+  width: 320px;
+  padding: 10px;
+  margin-left: 40px;
+  margin-top: 30px;
+  border-radius: 8px;
+}
+
+h1{
+  text-align: center;
+}
+form{
+  display: flex;
+  justify-content: center;
+}
+
+.btn-add-to-do{
+  margin-left: 20px;
+  padding: 10px;
+  border-radius: 8px;
+}
+.btn-add-to-do:hover{
+  color: #FBEAEB;
+  
+}
+button{
+  border-radius: 20px;
+  border: none;
+  background-color: #FBEAEB;
+  padding: 5px 10px;
+  
+
+}
+button:hover{
+  background-color: #000;
+  color: #FBEAEB;
+}
