@@ -1,0 +1,24 @@
+.App{
+  background-color: aquamarine;
+  height: 100px;
+  padding: 10px;
+  border-radius: 10px;
+}
+.counter{
+  font-size: 20px;
+  font-weight: 600;
+}
+
+button{
+  background-color: #ceb2b2;
+  border-radius: 10px;
+  border: none;
+  margin-left: 5px;
+  margin-top: 50px;
+  color: gray;
+}
+button:hover{
+  background-color: gray ;
+  color: #ceb2b2;
+  cursor:pointer;
+}

@@ -1,0 +1,12 @@
+body {
+ display: flex;
+ justify-content: center;
+ height: 80vh;
+ align-items: center;
+ background-color: rgb(48, 98, 101);
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
