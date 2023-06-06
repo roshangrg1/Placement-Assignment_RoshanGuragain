@@ -10,7 +10,7 @@
 }
 
 button{
-  background-color: #ceb2b2;
+  background-color: #e01c1c;
   border-radius: 10px;
   border: none;
   margin-left: 5px;
@@ -18,7 +18,7 @@ button{
   color: gray;
 }
 button:hover{
-  background-color: gray ;
+  background-color: rgb(69, 51, 190) ;
   color: #ceb2b2;
   cursor:pointer;
 }
